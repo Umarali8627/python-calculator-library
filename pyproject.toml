@@ -3,7 +3,30 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "calculator"
-version = "0.1.0"
-description = "A simple calculator library"
+name = "your-package-name"
+version = "1.0.0"
+description = "A lightweight Python calculator library."
+readme = "README.md"
 requires-python = ">=3.10"
+license = {text = "MIT"}
+
+authors = [
+    {name = "Umar Ali", email = "myumarali12@gmail.com"}
+]
+
+keywords = [
+    "calculator",
+    "python",
+    "math",
+    "library"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/python-calculator-library"
+Repository = "https://github.com/yourusername/python-calculator-library"
